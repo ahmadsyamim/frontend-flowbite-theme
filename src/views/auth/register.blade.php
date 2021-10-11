@@ -1,0 +1,1 @@
+@include('flowbite.modules.auth.register')

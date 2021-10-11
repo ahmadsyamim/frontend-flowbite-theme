@@ -1,0 +1,6 @@
+{
+    "name": "flowbite",
+    "extends": "",
+    "asset-path": "flowbite",
+    "views-path": "flowbite"
+}
