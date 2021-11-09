@@ -5,7 +5,7 @@
       <span class="self-center text-lg font-semibold whitespace-nowrap">FlowBite</span>
   </a>
   <div class="flex md:order-2">
-      @include('daisyui.partials.menu-right')
+      @include('flowbite.partials.menu-right')
   </div>
   <div class="hidden md:flex justify-between items-center w-full md:w-auto md:order-1" id="mobile-menu-2">
     <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
