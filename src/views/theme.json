@@ -1,5 +1,6 @@
 {
     "name": "flowbite",
+    "package_name": "ahmadsyamim/frontend-flowbite-theme",
     "extends": "",
     "asset-path": "flowbite",
     "views-path": "flowbite"
