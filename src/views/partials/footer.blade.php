@@ -82,7 +82,6 @@
         
         </div> <!-- /.off-canvas-content -->
 
-        {!! Asset::scripts() !!}
         @stack('scripts')
         </body>
 

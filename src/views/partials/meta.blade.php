@@ -24,11 +24,10 @@
     <link rel="apple-touch-icon-precomposed" href="{{ url('/') }}/images/apple-touch-icon.png" />
 
     <!-- Styles -->
-    @php 
-     Asset::add('flowbite','flowbite/css/flowbite.min.css');
-     Asset::add('flowbite','flowbite/js/flowbite.bundle.js');
-    @endphp
-    {!! Asset::styles() !!}
+    {{ HTML::style('flowbite/css/flowbite.min.css') }}
+    @push('scripts')
+    {{ HTML::script('flowbite/js/flowbite.bundle.js') }}
+    @endpush
 
     @if (setting('site.google_analytics_tracking_id'))
     <!-- Google Analytics (gtag.js) -->
